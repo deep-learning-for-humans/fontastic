@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 font_main_base = "https://www.fontsquirrel.com/fonts/"
 font_variant_base = "https://www.fontsquirrel.com/fonts/ajax/specimen_images/"
 
+
 def get_specimen_urls(html):
     """Using the font main page, get the hash for every font variant
     Example returns the list of hashes for every variant of Roboto
@@ -26,6 +27,7 @@ def get_specimen_urls(html):
     except:
         raise
 
+
 def get_specimen_images(html):
     """Generator which yields the image to be downloaded.
     This function parses the specimen page html, finds all <img>, fetches the image via requests
@@ -42,6 +44,7 @@ def get_specimen_images(html):
     except:
         raise
 
+
 def fetch_font_variants(url, font_name):
     """Fetch the specimen image of the font variant using the url & save it as png
 
@@ -55,6 +58,7 @@ def fetch_font_variants(url, font_name):
              print(image)
              with open('img-{}-{}.png'.format(font_name, dt.now()), 'wb') as out_file:
                 shutil.copyfileobj(image.raw, out_file)
+
 
 def load_font_main(font_name):
     """load the main page for a font on font squirel
