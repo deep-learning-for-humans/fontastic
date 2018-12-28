@@ -20,7 +20,7 @@ LOGGING_APPLICATION_CONF = {
     'loggers': {
         'app': {  # 'root' logge
             'level': 'DEBUG',
-            'handlers': ['json', 'console']
+            'handlers': ['console']
         }
     }
 }
