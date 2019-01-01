@@ -12,7 +12,6 @@ chardet==3.0.4
 Click==7.0
 colorama==0.4.1
 configparser==3.5.0
-croniter==0.3.26
 cycler==0.10.0
 decorator==4.3.0
 defusedxml==0.5.0
@@ -23,8 +22,6 @@ entrypoints==0.2.3
 funcsigs==1.0.0
 future==0.16.0
 gitdb2==2.0.5
-GitPython==2.1.11
-gunicorn==19.9.0
 h5py==2.8.0
 html5lib==1.0.1
 idna==2.7
@@ -34,9 +31,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.3.1
 iso8601==0.1.12
 isort==4.3.4
-itsdangerous==1.1.0
 jedi==0.12.1
-Jinja2==2.8.1
 jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.3
@@ -68,7 +63,6 @@ pendulum==1.4.4
 pep8==1.7.1
 pexpect==4.6.0
 pickleshare==0.7.4
-pipreqs==0.4.9
 prompt-toolkit==1.0.15
 psutil==4.4.2
 ptyprocess==0.6.0
@@ -79,9 +73,7 @@ pyparsing==2.2.0
 python-daemon==2.1.2
 python-dateutil==2.7.3
 python-editor==1.0.3
-python-nvd3==0.15.0
 python-slugify==2.0.0
-python3-openid==3.1.0
 pytz==2018.5
 pytzdata==2018.7
 PyYAML==3.13
@@ -96,10 +88,8 @@ six==1.11.0
 smmap2==2.0.5
 SQLAlchemy==1.1.18
 tabulate==0.8.2
-tenacity==4.8.0
 terminado==0.8.1
 testpath==0.3.1
-thrift==0.11.0
 tornado==5.1
 traitlets==4.3.2
 typed-ast==1.1.1
@@ -109,9 +99,4 @@ Unidecode==1.0.23
 urllib3==1.23
 wcwidth==0.1.7
 webencodings==0.5.1
-Werkzeug==0.14.1
 widgetsnbextension==3.3.1
-wrapt==1.10.11
-WTForms==2.2.1
-yarg==0.1.9
-zope.deprecation==4.4.0
