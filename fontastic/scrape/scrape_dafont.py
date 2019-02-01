@@ -11,9 +11,11 @@ import traceback
 import os
 import re
 
+URL_BASE = 'https://www.dafont.com/'
 
 def load_search_page():
-    url = "https://www.dafont.com/mtheme.php?id=5&fpp=50"
+    url = f"{URL_BASE}mtheme.php?id=5&fpp=50"
+    # fake user agent to mock browser request
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
     LOGGER.info("loading search page")
     request_url = url
@@ -31,8 +33,8 @@ def load_search_page():
 
         return anchors
 
-def load_font_page():
-    url = "https://www.dafont.com/roboto.font?text=the+quick+brown+fox+jumped+the+lazy+dog&fpp=50"
+def load_font_page(font):
+    url = f"{URL_BASE}{font}&text=the+quick+brown+fox+jumped+the+lazy+dog"
 
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
     LOGGER.info("loading search page")
@@ -40,11 +42,8 @@ def load_font_page():
     res = requests.get(request_url, headers=headers)
     if res.status_code == 200:
         # process html
-        # print(res.text)
         soup = BeautifulSoup(res.text, 'html.parser')
         font_preview = soup.findAll("div", attrs={"class":"preview"})
-        # LOGGER.info(font_preview)
-        # print(font_preview[0].findAll("a")[0].attrs["style"])
         bg_img_links = [div.attrs["style"] for div in font_preview]
 
         LOGGER.info("{} font images found".format(len(bg_img_links)))
@@ -54,10 +53,9 @@ def load_font_page():
         image_links = []
         for link in bg_img_links:
             matches = re.finditer(regex, link, re.MULTILINE)
+            # LOGGER.debug(f"found {len(matches)} in the url")
             for matchNum, match in enumerate(matches, start=1):
         
-                # print ("Match {matchNum} was found at {start}-{end}: {match}".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))
-                
                 for groupNum in range(0, len(match.groups())):
                     groupNum = groupNum + 1
                     
@@ -65,9 +63,9 @@ def load_font_page():
                     group = match.group(groupNum)
                     image_links.append(group)
 
-
-    LOGGER.info(image_links)
     return image_links
+
+# def download_font_images(font, font_urls)
 
 if __name__ == '__main__':
 
@@ -75,5 +73,15 @@ if __name__ == '__main__':
     Setting command lines argument parser for reading path to configuration file
     '''
 
-    load_search_page()
-    load_font_page()
+    fonts = load_search_page()
+    font_url_map = {}
+    for font in fonts:
+        LOGGER.info(f"start scraping {font}")
+        font_image_urls = load_font_page(font)
+        LOGGER.info(f"found {len(font_image_urls)} for {font}")
+
+        font_url_map[font] = font_image_urls
+
+    for font in font_url_map.keys():
+        print(font)
+        print(len(font_url_map[font]))
