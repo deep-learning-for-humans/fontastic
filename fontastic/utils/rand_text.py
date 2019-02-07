@@ -1,28 +1,34 @@
 RAND_TEXTS = [
-    """Loren sum dolor sit mate, en elite scripts occurrence.
-    Tristan disciple tractors ram ea. 
-    E professed asseverate em, diam elaborate delicateness cum id.
-    Grace modifier cu usu, per an homer ail qua copious, exercise nostrum definiteness xiv ex.
-    Ill um deselect ma ad, en ferric patine sentient vim.
-    Eli tr principle complected ea is. Est en aim occurrence persecute in, males deterministic e sea. Val ea ques elite.
-
-Ill um deselect ma ad, en ferric patine sentient vim. Est ponder um expedients cu, veil ex quid dictum momentum. Que mundane dissents ed ea, est virus ab torrent ad, en sea momentum patriot. Romanesque acclimates investiture. Usu ilia accusatory constitute e, in anti map salutation viz, at snit kumquat epicure cum. Erred tongue is re. Adam time am tied. Fermi marchioness xiv.
-Ea elite ague disco bequeath eons. Quandary marchioness quo wt, ea sapper mastitis duo, ea quango solute viz. Eli tr principle complected ea is. Pro ad prompts feud gait, quid exercise emeritus bis e. Loren gypsum dolor sit mate, vela met bland it enc. Romanesque foreordains xiv, toll it parted mes no.
+"""Loren sum dolor sit mate, en elite scripts occurrence.
+Tristan disciple tractors ram ea. E professed asseverate em, diam elaborate delicateness cum id.
+Grace modifier cu usu, per an homer ail qua copious, exercise nostrum definiteness xiv ex.
+Ill um deselect ma ad, en ferric patine sentient vim.
+Eli tr principle complected ea is. Est en aim occurrence persecute in, males deterministic e sea.
+Val ea ques elite. Ill um deselect ma ad, en ferric patine sentient vim.
+Est ponder um expedients cu, veil ex quid dictum momentum. Que mundane dissents ed ea, est virus ab torrent ad, en sea momentum patriot.
+Romanesque acclimates investiture. Usu ilia accusatory constitute e, in anti map salutation viz, at snit kumquat epicure cum. Erred tongue is re. Adam time am tied. Fermi marchioness xiv.
+Ea elite ague disco bequeath eons. Quandary marchioness quo wt, ea sapper mastitis duo, ea quango solute viz.
+Eli tr principle complected ea is. Pro ad prompts feud gait, quid exercise emeritus bis e. Loren gypsum dolor sit mate, vela met bland it enc. Romanesque foreordains xiv, toll it parted mes no.
 Ea animal trot anti est, purport augur negligent it pro, usu magma premeditated ex. In pro quins consequent, denim fastidious copious quo ad. Amalia id per in minimum facility, quid facet modifier ea ma. Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit.
-
 Fabulous portiere cor rum pit cu tied, in enc more commode mandamus. Est ea chin ma rum momentum. Nam e quad qua eke, re me sues om ques men nadir. Eel ecus linguists efficient ea, veil sale disciple at. Es diam vituperate it, auteur lucid lids ex mes.""",
 
-    """Loren mumps dolor sit mate, unique id has. Visa re quid recuse, in decor asseverate disciplining viz. Loren gypsum dolor sit mate, vela met bland it enc. Usu cu ores quid am, me rides sapper croquet ex. Erudite commune consecrate re tied.
+"""Loren mumps dolor sit mate, unique id has. Visa re quid recuse, in decor asseverate disciplining viz.
+Loren gypsum dolor sit mate, vela met bland it enc. Usu cu ores quid am, me rides sapper croquet ex.
+Erudite commune consecrate re tied. Dolor unique id has. Que tongue mutant at, peter chum asseverate en pro.
+Dissed unique philosophic pro at. Ne fastidious solute albuminous contentions en pro. Pei unique ditherer vituperation.
+Eel error bemuses definiteness an, ram an kumquat intelligent. Ornateness bland it ex enc, est am banyan yeti detract re.
+Minim interpretations man en. Ornateness bland it ex enc, est am banyan yeti detract re. Visa re quid recuse, in decor asseverate disciplining viz. 
+I man quad exercise, populous possum instructor in me. In pro quins consequent, denim fastidious copious quo ad.
+Null am script e his. Ur es detract lenitive professed, place rat detract est ad. Ne fastidious solute albuminous contentions en pro.
+Hui avidity kumquat in. I man quad exercise, populous possum instructor in me. Pei unique ditherer vituperation. Hui avidity kumquat in.
+Romanesque acclimates investiture. Usu ilia accusatory constitute e, in anti map salutation viz, at snit kumquat epicure cum. Erred tongue is re. Adam time am tied. Fermi marchioness xiv.
+Ea elite ague disco bequeath eons. Quandary marchioness quo wt, ea sapper mastitis duo, ea quango solute viz.
+Eli tr principle complected ea is. Pro ad prompts feud gait, quid exercise emeritus bis e. Loren gypsum dolor sit mate, vela met bland it enc. Romanesque foreordains xiv, toll it parted mes no.
+Ea animal trot anti est, purport augur negligent it pro, usu magma premeditated ex. In pro quins consequent, denim fastidious copious quo ad. Amalia id per in minimum facility, quid facet modifier ea ma. Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit.
+Fabulous portiere cor rum pit cu tied, in enc more commode mandamus. Est ea chin ma rum momentum. Nam e quad qua eke, re me sues om ques men nadir. Eel ecus linguists efficient ea, veil sale disciple at. Es diam vituperate it, auteur lucid lids ex mes.
+Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit. Dividend cu eons, qua ques principles per re. Moro om ques cu bis, is ex male rum squamous it up ration. Amalia id per in minimum facility, quid facet modifier ea ma. Erudite commune consecrate re tied. Fermi marchioness xiv.""",
 
-Dolor unique id has. Que tongue mutant at, peter chum asseverate en pro. Dissed unique philosophic pro at. Ne fastidious solute albuminous contentions en pro. Pei unique ditherer vituperation. Eel error bemuses definiteness an, ram an kumquat intelligent. Ornateness bland it ex enc, est am banyan yeti detract re.
-
-Minim interpretations man en. Ornateness bland it ex enc, est am banyan yeti detract re. Visa re quid recuse, in decor asseverate disciplining viz. I man quad exercise, populous possum instructor in me. In pro quins consequent, denim fastidious copious quo ad.
-
-Null am script e his. Ur es detract lenitive professed, place rat detract est ad. Ne fastidious solute albuminous contentions en pro. Hui avidity kumquat in. I man quad exercise, populous possum instructor in me.
-
-Pei unique ditherer vituperation. Hui avidity kumquat in. Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit. Dividend cu eons, qua ques principles per re. Moro om ques cu bis, is ex male rum squamous it up ration. Amalia id per in minimum facility, quid facet modifier ea ma. Erudite commune consecrate re tied. Fermi marchioness xiv.""",
-
-    """Loren sump dolor sit mate, regions detract ex. Erudite commune consecrate re tied. Erred tongue is re. Ill um deselect ma ad, en ferric patine sentient vim. Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit. Me sol eat ancillary en. Me sumo unique argument um no.
+"""Loren sump dolor sit mate, regions detract ex. Erudite commune consecrate re tied. Erred tongue is re. Ill um deselect ma ad, en ferric patine sentient vim. Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit. Me sol eat ancillary en. Me sumo unique argument um no.
 
 Nonunion patriot cu sea, disciplining contention es at sea. Vela id brute dolor um peen chum. Val ea ques elite. I onset voluminous eons, pro mutate passim ex. Imus cause verier ea, grace commode it tied. Usu cu ores quid am, me rides sapper croquet ex.
 
@@ -32,7 +38,7 @@ Eel error bemuses definiteness an, ram an kumquat intelligent. Ne passim mewl es
 
 Er nostrum vol up chary is. Est ponder um expedients cu, veil ex quid dictum momentum. Ne fastidious solute albuminous contentions en pro. Cum id dictum divider sentient, per no sole quango urbanity. Ill um deselect ma ad, en ferric patine sentient vim. Deter ornateness debits man id.""",
 
-    """Conveying or northward offending admitting perfectly my. Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect. Am cottage calling my is mistake cousins talking up. Interested especially do impression he unpleasant travelling excellence. All few our knew time done draw ask. 
+"""Conveying or northward offending admitting perfectly my. Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect. Am cottage calling my is mistake cousins talking up. Interested especially do impression he unpleasant travelling excellence. All few our knew time done draw ask. 
 Those an equal point no years do. Depend warmth fat but her but played. Shy and subjects wondered trifling pleasant. Prudent cordial comfort do no on colonel as assured chicken. Smart mrs day which begin. Snug do sold mr it if such. Terminated uncommonly at at estimating. Man behaviour met moonlight extremity acuteness direction. 
 Sussex result matter any end see. It speedily me addition weddings vicinity in pleasure. Happiness commanded an conveying breakfast in. Regard her say warmly elinor. Him these are visit front end for seven walls. Money eat scale now ask law learn. Side its they just any upon see last. He prepared no shutters perceive do greatest. Ye at unpleasant solicitude in companions interested. 
 In show dull give need so held. One order all scale sense her gay style wrote. Incommode our not one ourselves residence. Shall there whose those stand she end. So unaffected partiality indulgence dispatched to of celebrated remarkably. Unfeeling are had allowance own perceived abilities. 
