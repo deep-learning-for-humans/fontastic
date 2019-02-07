@@ -6,10 +6,11 @@ import numpy as np
 import os
 import glob
 
-fontSize = 40
-imgSize = (1200,50)
-position = (0,0)
+from fontastic.utils.rand_text import RAND_TEXTS
 
+fontSize = 68
+imgSize = (3840, 2160)
+position = (0,0)
 
 def generate_font_images(font, ttf_path):
     print(os.path.join (ttf_path, '*.ttf'))
@@ -31,14 +32,23 @@ def generate_font_images(font, ttf_path):
         # font_var = font_var.lower()
         #Check desired font
         #   if f_lower in s_lower:
-        font_ttf = ImageFont.truetype(font_var, fontSize)
 
         text_types = ["""the quick brown fox jumped the lazy dog""",
                 """a b c d e f g h i j k l m n o p q r s t u v w x y z""",
                 """1 2 3 4 5 6 7 8 9 0"""
                 ]
 
-        for idx, ch in enumerate(text_types):
+        font_size = {
+            0: 300,
+            1: 150,
+            2: 80,
+            3: 50
+        }
+
+        # text_types = [RAND_TEXT]
+
+        for idx, ch in enumerate(RAND_TEXTS):
+            font_ttf = ImageFont.truetype(font_var, font_size[idx])
             image = Image.new("RGB", imgSize, (255,255,255))
             draw = ImageDraw.Draw(image)
             pos_x = 0
@@ -72,10 +82,12 @@ if __name__ == '__main__':
     fonts_list = os.listdir(ttf_path)
 
     total_fonts = len(fonts_list)
-    all_fonts = glob.glob(os.path.join (os.getcwd(), 'data', 'fonts', 'roboto', '*.ttf'))
-
+    all_fonts = os.listdir(os.path.join (os.getcwd(), 'data', 'src', 'fonts'))
+    all_fonts = [font for font in all_fonts if font != '.DS_Store']
     print(all_fonts) 
 
     # TODO more clean here with params
-    generate_font_images('roboto', ttf_path)
-    generate_font_images('open-sans', ttf_path)
+    for font in all_fonts:
+        # generate_font_images('roboto', ttf_path)
+        print(f'generate font image for {font}')
+        generate_font_images(font, ttf_path)
