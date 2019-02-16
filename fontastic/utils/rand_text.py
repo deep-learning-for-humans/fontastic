@@ -28,15 +28,37 @@ Ea animal trot anti est, purport augur negligent it pro, usu magma premeditated 
 Fabulous portiere cor rum pit cu tied, in enc more commode mandamus. Est ea chin ma rum momentum. Nam e quad qua eke, re me sues om ques men nadir. Eel ecus linguists efficient ea, veil sale disciple at. Es diam vituperate it, auteur lucid lids ex mes.
 Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit. Dividend cu eons, qua ques principles per re. Moro om ques cu bis, is ex male rum squamous it up ration. Amalia id per in minimum facility, quid facet modifier ea ma. Erudite commune consecrate re tied. Fermi marchioness xiv.""",
 
-"""Loren sump dolor sit mate, regions detract ex. Erudite commune consecrate re tied. Erred tongue is re. Ill um deselect ma ad, en ferric patine sentient vim. Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit. Me sol eat ancillary en. Me sumo unique argument um no.
+"""Loren sump dolor sit mate, regions detract ex. Erudite commune consecrate re tied. Erred tongue is re.
+Ill um deselect ma ad, en ferric patine sentient vim. Unitarian elect ram patriot, en sea tuber gen constitute,
+rebus illus adolescents sit. Me sol eat ancillary en. Me sumo unique argument um no.
+Amalia id per in minimum facility, quid facet modifier ea ma. Unitarian elect ram patriot, en sea tuber gen constitute, rebus illus adolescents sit.
 
-Nonunion patriot cu sea, disciplining contention es at sea. Vela id brute dolor um peen chum. Val ea ques elite. I onset voluminous eons, pro mutate passim ex. Imus cause verier ea, grace commode it tied. Usu cu ores quid am, me rides sapper croquet ex.
+Nonunion patriot cu sea, disciplining contention es at sea. Vela id brute dolor um peen chum. Val ea ques elite.
+I onset voluminous eons, pro mutate passim ex. Imus cause verier ea, grace commode it tied. Usu cu ores quid am,
+me rides sapper croquet ex.
+Moro om ques cu bis, is ex male rum squamous it up ration. Amalia id per in minimum facility, quid facet modifier ea ma.
+Erudite commune consecrate re tied. Fermi marchioness
 
-Imus cause verier ea, grace commode it tied. Fermi marchioness xiv. Adam time am tied. Nev regions detract ex. Risque croquet pro ea. Null am script e his. Tiber bonobo commune re is, at maxim proportionate cum. Romanesque foreordains xiv, toll it parted mes no.
+On it differed repeated wandered required in. Then girl neat why yet knew rose spot. Moreover property we he kindness greatest be oh
+striking laughter. In me he at collecting affronting principles apartments. Has visitor law attacks pretend you
+calling own excited painted. Contented attending smallness it oh ye unwilling. Turned favour man two but lovers. Suffer should if waited common person little oh. Improved civility graceful sex few smallest screened settling. Likely active her warmly has. 
 
-Eel error bemuses definiteness an, ram an kumquat intelligent. Ne passim mewl est disciplining sit, disco simper liquid quo an, at latrine frugality premeditate cum. Deter ornateness debits man id. Er nostrum vol up chary is. Ur es detract lenitive professed, place rat detract est ad. Porto serenity est it.
+She wholly fat who window extent either formal. Removing welcomed civility or hastened is. Justice elderly but perhaps
+expense six her are another passage. Full her ten open fond walk not down. For request general express unknown are.
+He in just mr door body held john down he. So journey greatly or garrets. Draw door kept do so come on open mean.
+Estimating stimulated how reasonably precaution diminution she simplicity sir but. Questions am sincerity zealously concluded consisted or no gentleman it. 
 
-Er nostrum vol up chary is. Est ponder um expedients cu, veil ex quid dictum momentum. Ne fastidious solute albuminous contentions en pro. Cum id dictum divider sentient, per no sole quango urbanity. Ill um deselect ma ad, en ferric patine sentient vim. Deter ornateness debits man id.""",
+Imus cause verier ea, grace commode it tied. Fermi marchioness xiv. Adam time am tied. Nev regions detract ex.
+Risque croquet pro ea. Null am script e his. Tiber bonobo commune re is, at maxim proportionate cum.
+Romanesque foreordains xiv, toll it parted mes no.
+
+Eel error bemuses definiteness an, ram an kumquat intelligent. Ne passim mewl est disciplining sit, disco simper
+liquid quo an, at latrine frugality premeditate cum. Deter ornateness debits man id. Er nostrum vol up chary is.
+Ur es detract lenitive professed, place rat detract est ad. Porto serenity est it.
+
+Er nostrum vol up chary is. Est ponder um expedients cu, veil ex quid dictum momentum. Ne fastidious solute albuminous
+contentions en pro. Cum id dictum divider sentient, per no sole quango urbanity. Ill um deselect ma ad, en ferric patine
+sentient vim. Deter ornateness debits man id.""",
 
 """Conveying or northward offending admitting perfectly my. Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect. Am cottage calling my is mistake cousins talking up. Interested especially do impression he unpleasant travelling excellence. All few our knew time done draw ask. 
 Those an equal point no years do. Depend warmth fat but her but played. Shy and subjects wondered trifling pleasant. Prudent cordial comfort do no on colonel as assured chicken. Smart mrs day which begin. Snug do sold mr it if such. Terminated uncommonly at at estimating. Man behaviour met moonlight extremity acuteness direction. 
@@ -70,6 +92,13 @@ Now principles discovered off increasing how reasonably middletons men. Add seem
 Certain but she but shyness why cottage. Gay the put instrument sir entreaties affronting. Pretended exquisite see cordially the you. Weeks quiet do vexed or whose. Motionless if no to affronting imprudence no precaution. My indulged as disposal strongly attended. Parlors men express had private village man. Discovery moonlight recommend all one not. Indulged to answered prospect it bachelor is he bringing shutters. Pronounce forfeited mr direction oh he dashwoods ye unwilling. 
 Parish so enable innate in formed missed. Hand two was eat busy fail. Stand smart grave would in so. Be acceptance at precaution astonished excellence thoroughly is entreaties. Who decisively attachment has dispatched. Fruit defer in party me built under first. Forbade him but savings sending ham general. So play do in near park that pain. 
 Am terminated it excellence invitation projection as. She graceful shy believed distance use nay. Lively is people so basket ladies window expect. Supply as so period it enough income he genius. Themselves acceptance bed sympathize get dissimilar way admiration son. Design for are edward regret met lovers. This are calm case roof and. 
+
+In 1985 Aldus Corporation launched its first desktop publishing program Aldus PageMaker for Apple Macintosh computers, released in 1987 for PCs running Windows 1.0. Both contained the variant lorem ipsum most common today. Laura Perry, then art director with Aldus, modified prior versions of Lorem Ipsum text from typographical specimens; in the 1960s
+and 1970s it appeared often in lettering catalogs by Letraset. Anecdotal evidence has it that Letraset used Lorem ipsum already from 1970 onwards, eg. for grids (page layouts) for ad agencies. Many early desktop publishing programs, eg. Adobe PageMaker, used it to create template.
+MS Word: From 2007 onwards typing =lorem(i) or =lorem(i, j) in MS Word creates greeking text--don't forget to hit the enter key; i and j need to be integers, where i stands for the amount of desired paragraphs and j numbers the sentences per paragraph. j has a default value of 3 and a maximum set to 6665. >>
+An alternative, possibly more versatile, is Lorem and More. It inserts dummy copy as paragraphs, lists, and regular text. Optionally available are extracts from a speech by Cicero, corporate nonsense, and a randomised sonnet by Shakespeare. Text may be inserted in code view and design view. The tool can be accessed via the Lorem and More icon on the Common tab of the Insert bar (MX) or the Common objects panel (DW4). Else, it's accessible using the menu: Insert > Lorem and More.
+Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, 
+quia dolor sit amet, consectetur, adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
 """
 
 
