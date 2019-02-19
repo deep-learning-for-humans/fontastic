@@ -46,7 +46,7 @@ def generate_font_images(font, ttf_path):
             LOGGER.info(font)
             draw.text(position, ch, (0,0,0), font=font_ttf)
 
-            file_name = font_file + '_' + str(idx) + '.jpg'
+            file_name = font_file + '_' + str(font_size[idx]) + '.jpg'
             file_name = os.path.join(dataset_path, font, file_name)
             LOGGER.info(file_name)
             image.save(file_name, quality=95, dpi=(600,600))
