@@ -28,18 +28,24 @@ fontastic --
             utils
 ```
 
-### Fetching Data
+## How to generate font images?
 
-We fetch the data to train the classification model, we scrape the images from fontsquirrel.com. 
-We specify the fonts required in the font section, located in the ``` fontastic/scrape/config.ini ```.
-Also provide the number of the parallel process you need and output_dir to store the images for each font in the config section under the respective labels ```multiprocessing_pool_size``` and ```output_dir```
+1. Download [fonts](https://www.dropbox.com/s/tcgh4t2ltttzrrz/fonts-ttfs.tgz?dl=0) and untar it in the location `<project_root>`. So every font will be list as below
 
-Based on the pool size, we run parallel processes using multiprocessing.
-In order to fetch the data, you can call the following script :
+	```
+	project_root/data/src/fonts/roboto
+	project_root/data/src/fonts/roboto/roboto-regular.ttf
+	project_root/data/src/fonts/roboto/roboto-bold.ttf
+	project_root/data/src/fonts/roboto/roboto-italic.ttf
 
-```  
-python fontastic/scrape/scrape.py --config /<path_to_fontastic_folder>/fontastic/scrape/config.ini
-```
+	project_root/data/src/fonts/open-sans
+	project_root/data/src/fonts/open-sans/open-sans-regular.ttf
+	project_root/data/src/fonts/open-sans/open-sans-regular.ttf
+	project_root/data/src/fonts/open-sans/open-sans-regular.ttf
+	...
+	...
+	...
+	```
 
-You can see that in the ```output_dir``` path specified, you will see a folder for each font in the ```required_fonts``` list provided in the ```config.ini```
-
+2. now run ` python fontastic/scrape/local_image_gen.py`
+3. the program will create 4k images for every random text and ttf combination. The output image location is `project_root/data/dst/roboto/<output_images>`
