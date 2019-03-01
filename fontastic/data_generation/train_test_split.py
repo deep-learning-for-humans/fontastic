@@ -111,6 +111,8 @@ if __name__ == '__main__':
             experiment_uuid = str(uuid.uuid4())
 
         config_section['experiment_uuid'] = experiment_uuid
+        with open(config_file_path, 'w') as config_write_file:
+            config.write(config_write_file)
         generate_test_train_data(data_path=training_data_path,
                                  test_size=test_size,
                                  stratify=stratify,
