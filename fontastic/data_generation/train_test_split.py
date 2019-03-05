@@ -45,17 +45,21 @@ def generate_test_train_data(data_path, test_size, stratify, experiments_path, e
                 continue
 
         fonts_files_df = pd.DataFrame(fonts_files)
+
         LOGGER.info(fonts_files_df.head(20))
         LOGGER.debug(fonts_files_df.head())
         LOGGER.info("Fonts files dataframe with columns {} and shape {}".format(
             fonts_files_df.columns, fonts_files_df.shape))
         LOGGER.info("Generating class name based on the font type")
+
         fonts_files_df['class'] = fonts_files_df.filename.apply(
             lambda x: x.split('_')[0])
         LOGGER.debug(fonts_files_df.head())
+
         X = fonts_files_df['filename'].tolist()
         y = fonts_files_df['class'].tolist()
         LOGGER.info("Data Stratification required {}".format(stratify))
+
         if stratify:
             LOGGER.info("Shape of data {}".format(fonts_files_df.shape))
             X_train, X_test, y_train, y_test = train_test_split(
@@ -73,6 +77,7 @@ def generate_test_train_data(data_path, test_size, stratify, experiments_path, e
         train_df.columns = ['filename', 'class']
         test_df = pd.DataFrame([X_test, y_test]).T
         test_df.columns = ['filename', 'class']
+
         LOGGER.debug("Train dataframe shape {}".format(train_df.shape))
         LOGGER.debug("Train dataframe unique shape {}".format(train_df.filename.nunique()))
         LOGGER.debug("Test dataframe shape {}".format(test_df.shape))
@@ -120,6 +125,7 @@ if __name__ == '__main__':
         stratify = ast.literal_eval(config_section['stratify'])
         experiment_uuid = config_section['experiment_uuid']
         experiments_path = config_section['experiment_path']
+
         LOGGER.debug(type(experiment_uuid))
         if experiment_uuid == '':
             experiment_uuid = str(uuid.uuid4())
