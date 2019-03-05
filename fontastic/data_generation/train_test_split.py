@@ -26,14 +26,26 @@ def generate_test_train_data(data_path, test_size, stratify, experiments_path, e
         LOGGER.info("Data path exists, processing font directories")
         for font_dir in os.listdir(data_path):
             LOGGER.info("Processing font directories {}".format(font_dir))
-            font_files_dict = {}
-            font_files = os.listdir(os.path.join(data_path, font_dir))
-            for files in font_files:
-                font_files_dict['font_dir'] = font_dir
-                font_files_dict['filename'] = files
-                fonts_files.append(font_files_dict)
+            if os.path.isdir(os.path.join(data_path, font_dir)):
+                font_files = os.listdir(os.path.join(data_path, font_dir))
+                LOGGER.info(os.path.join(data_path, font_dir))
+                for files in font_files:
+                    font_files_dict = {}
+                    # skip other files
+                    if not files.endswith(".jpg"):
+                        continue
+
+                    LOGGER.info(files)
+                    font_files_dict['font_dir'] = font_dir
+                    font_files_dict['filename'] = files
+                    fonts_files.append(font_files_dict)
+            else:
+                # ignore regular files
+                LOGGER.warn('no dir')
+                continue
 
         fonts_files_df = pd.DataFrame(fonts_files)
+        LOGGER.info(fonts_files_df.head(20))
         LOGGER.debug(fonts_files_df.head())
         LOGGER.info("Fonts files dataframe with columns {} and shape {}".format(
             fonts_files_df.columns, fonts_files_df.shape))
@@ -62,7 +74,9 @@ def generate_test_train_data(data_path, test_size, stratify, experiments_path, e
         test_df = pd.DataFrame([X_test, y_test]).T
         test_df.columns = ['filename', 'class']
         LOGGER.debug("Train dataframe shape {}".format(train_df.shape))
+        LOGGER.debug("Train dataframe unique shape {}".format(train_df.filename.nunique()))
         LOGGER.debug("Test dataframe shape {}".format(test_df.shape))
+        LOGGER.debug("Test dataframe unique shape {}".format(test_df.filename.nunique()))
         LOGGER.debug(train_df.head())
         LOGGER.debug(test_df.head())
 
