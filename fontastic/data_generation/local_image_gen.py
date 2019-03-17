@@ -16,7 +16,7 @@ def generate_font_images(font, ttf_path):
     LOGGER.info(os.path.join (ttf_path, '*.ttf'))
     font_files = glob.glob(os.path.join (ttf_path, font, '*.ttf'))
     LOGGER.info(font_files)
-    LOGGER.info(f'found {len(font_files)} font file for {font}')
+    #LOGGER.info(f'found {len(font_files)} font file for {font}')
 
     dst_img_path = os.path.join(dataset_path, font)
     if not os.path.exists(dst_img_path):
