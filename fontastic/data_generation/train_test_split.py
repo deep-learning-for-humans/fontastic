@@ -97,7 +97,7 @@ def generate_test_train_data(data_path, test_size, stratify, experiments_path, e
         test_df.to_csv(test_csv, index=None)
 
     else:
-        LOGGER.error("Data path does not exist")
+        LOGGER.error("Data path {} does not exist".format(data_path), exc_info=True)
         exit()
 
 if __name__ == '__main__':
