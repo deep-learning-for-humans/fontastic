@@ -53,7 +53,7 @@ def generate_test_train_data(data_path, test_size, stratify, experiments_path, e
         LOGGER.info("Generating class name based on the font type")
 
         fonts_files_df['class'] = fonts_files_df.filename.apply(
-            lambda x: x.split('_')[0])
+            lambda x: x.split('_')[0].split('-')[0])
         LOGGER.debug(fonts_files_df.head())
 
         X = fonts_files_df['filename'].tolist()
