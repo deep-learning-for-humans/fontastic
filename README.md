@@ -28,18 +28,46 @@ fontastic --
             utils
 ```
 
-### Fetching Data
+## How to generate font images?
 
-We fetch the data to train the classification model, we scrape the images from fontsquirrel.com. 
-We specify the fonts required in the font section, located in the ``` fontastic/scrape/config.ini ```.
-Also provide the number of the parallel process you need and output_dir to store the images for each font in the config section under the respective labels ```multiprocessing_pool_size``` and ```output_dir```
+1. Download [fonts](https://www.dropbox.com/s/tcgh4t2ltttzrrz/fonts-ttfs.tgz?dl=0) and untar it in the location `<project_root>`. So every font will be list as below
 
-Based on the pool size, we run parallel processes using multiprocessing.
-In order to fetch the data, you can call the following script :
+	```
+	project_root/data/src/fonts/roboto
+	project_root/data/src/fonts/roboto/roboto-regular.ttf
+	project_root/data/src/fonts/roboto/roboto-bold.ttf
+	project_root/data/src/fonts/roboto/roboto-italic.ttf
 
-```  
-python fontastic/scrape/scrape.py --config /<path_to_fontastic_folder>/fontastic/scrape/config.ini
-```
+	project_root/data/src/fonts/open-sans
+	project_root/data/src/fonts/open-sans/open-sans-regular.ttf
+	project_root/data/src/fonts/open-sans/open-sans-regular.ttf
+	project_root/data/src/fonts/open-sans/open-sans-regular.ttf
+	...
+	...
+	...
+	```
 
-You can see that in the ```output_dir``` path specified, you will see a folder for each font in the ```required_fonts``` list provided in the ```config.ini```
+2. now run ` python fontastic/data_generation/local_image_gen.py`
+3. the program will create 4k images for every random text and ttf combination. The output image location is `project_root/data/dst/roboto/<output_images>`
+4. Next run ` python fontastic/data_generation/training_data_gen.py`. This program will create crops of the image and perform data transforms that can be used for training the network.
 
+
+## Training and Evaluation
+
+The thought process behind running training and evaluation is to run each off it as an experiment with certain artifacts associated to the experiment. 
+This gives us the following benefits:
+
+* Restart experiments at various stagesired rated during the experiment run
+* Version control of experiments
+
+### Splitting dataset into training and test 
+
+Please look at the ```TRAIN_TEST_SPLIT``` section in the ```config.ini``` to understand the configurations required to start an experiment and generate test and train data.
+
+The command to use is : 
+
+```python fontastic/data_generation/train_test_split.py --config fontastic/data_generation/config.ini``` 
+
+This will generate an ```experiments folder``` with the ```experiment_id``` as sub folder to store the artifacts. In case the ```experiment_id``` is left empty in the config during the first run, this will be populated and written back to the config. 
+
+You should see a csv for ```train``` and ```test``` respectively in the experiments path folder.
