@@ -73,6 +73,7 @@ def process_font_images(font_dir, img_dst, number_of_random_crops):
     except Exception as e:
         raise
 
+
 def process_font(font_dir):
     LOGGER.info("Processing font directory {}".format(font_dir))
     font_dir = os.path.join(font_base_dir, font_dir)
