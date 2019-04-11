@@ -72,6 +72,10 @@ This will generate an ```experiments folder``` with the ```experiment_id``` as s
 
 You should see a csv for ```train``` and ```test``` respectively in the experiments path folder.
 
+### List of Fonts
+
+Please use [this zip](https://drive.google.com/file/d/1KjKakY3yYz0MtvweRpGprpSA8e5kH31O/view?usp=sharing) to get the 70 fonts to train the model
+
 ## References
 * [Image Data Generator using PIL](https://tanmayshah2015.wordpress.com/2015/12/01/synthetic-font-dataset-generation/)
 * [Grad Cam visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
