@@ -1,4 +1,4 @@
-# fontastic
+# Fontastic
 Font classifier
 
 This repository contains experiments for classfying fonts from images.
@@ -71,3 +71,7 @@ The command to use is :
 This will generate an ```experiments folder``` with the ```experiment_id``` as sub folder to store the artifacts. In case the ```experiment_id``` is left empty in the config during the first run, this will be populated and written back to the config. 
 
 You should see a csv for ```train``` and ```test``` respectively in the experiments path folder.
+
+## References
+* [Grad Cam visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+* [Learning Rate Finder](https://github.com/davidtvs/pytorch-lr-finder/)
