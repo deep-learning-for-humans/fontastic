@@ -6,6 +6,7 @@ import configparser
 import os
 import sys
 from torchvision.transforms import Compose, RandomResizedCrop
+from sklearn.externals.joblib import Parallel, delayed
 from PIL import Image
 
 from fontastic import LOGGER
@@ -72,6 +73,14 @@ def process_font_images(font_dir, img_dst, number_of_random_crops):
     except Exception as e:
         raise
 
+
+def process_font(font_dir):
+    LOGGER.info("Processing font directory {}".format(font_dir))
+    font_dir = os.path.join(font_base_dir, font_dir)
+    LOGGER.info(font_dir)
+    process_font_images(font_dir, img_dst, number_of_random_crops)
+
+
 if __name__ == '__main__':
     try:
         arg_parser = argparse.ArgumentParser(
@@ -98,12 +107,9 @@ if __name__ == '__main__':
         width = ast.literal_eval(config_section['width'])
         height = ast.literal_eval(config_section['height'])
         img_dst = config_section['training_destination']
-
-        for font_dir in os.listdir(font_base_dir):
-            LOGGER.info("Processing font directory {}".format(font_dir))
-            font_dir = os.path.join(font_base_dir, font_dir)
-            LOGGER.info(font_dir)
-            process_font_images(font_dir, img_dst, number_of_random_crops)
+        
+        # parallelize image generation for every font
+        Parallel(n_jobs=-2)(delayed(process_font)(fontdir) for fontdir in os.listdir(font_base_dir))
 
     except Exception as e:
         LOGGER.error(traceback.format_exc())
