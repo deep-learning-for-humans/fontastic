@@ -30,7 +30,7 @@ fontastic --
 
 ## How to generate font images?
 
-1. Download [fonts](https://www.dropbox.com/s/tcgh4t2ltttzrrz/fonts-ttfs.tgz?dl=0) and untar it in the location `<project_root>`. So every font will be list as below
+1. Download [fonts](https://drive.google.com/file/d/1KjKakY3yYz0MtvweRpGprpSA8e5kH31O/view?ts=5ca89188) and untar it in the location `<project_root>`. So every font will be list as below
 
 	```
 	project_root/data/src/fonts/roboto
