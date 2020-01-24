@@ -43,7 +43,7 @@ def get_train_files_path(experiments_path, data_path, phase):
 
 def copy_images_to_path(file_path, file_class, destination_dir):
     font_folder = os.path.join(destination_dir, file_class)
-    if os.path.exists(font_folder) == False:
+    if os.path.exists(font_folder) is False:
         os.makedirs(font_folder)
 
     print("File being copied from {}:{}".format(file_path, font_folder))
@@ -139,7 +139,7 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=20):
             for i in range(len(example_list)):
                 print("Reading example index {}".format(i))
                 orig_image, preprocess_image, target_class = select_image(i)
-                if orig_image != None:
+                if orig_image is not None:
                     grad_cam_epoch_layer = []
                     for layer_number in range(1, 10):
                         try:
@@ -193,5 +193,14 @@ def fetch_pretrained_model():
     return model_ft, optimizer_ft exp_lr_scheduler
 
 
-model_ft_resnet50, epoch_information_resnet50 = train_model(
-    model_ft, criterion, optimizer_ft, exp_lr_scheduler, num_epochs=20)
+def train():
+    get_train_files_path(experiments_path, data_path, )
+    copy_images_to_path
+    create_model_training_data()
+    fetch_pretrained_model()
+    train_model()
+    model_ft_resnet50, epoch_information_resnet50 = train_model(
+        model_ft, criterion, optimizer_ft, exp_lr_scheduler, num_epochs=20)
+
+
+def test()
