@@ -18,7 +18,12 @@ from fastai.vision import transform as tfm
 from PIL import Image
 import pickle
 import ssl
+import reconplogger
+from jsonargparse import ArgumentParser
 ssl._create_default_https_context = ssl._create_unverified_context
+
+device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+logger = reconplogger.logger_setup()
 
 
 def get_train_files_path(experiments_path, data_path, phase):
@@ -78,8 +83,8 @@ def create_model_training_data(experiments_path, data_path):
                                                   shuffle=True,
                                                   num_workers=4)
                    for x in ['train', 'test']}
-    device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
     dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'test']}
+    return dataloaders, dataset_sizes
 
 
 def train_model(model, criterion, optimizer, scheduler, num_epochs=20):
@@ -193,14 +198,26 @@ def fetch_pretrained_model():
     return model_ft, optimizer_ft exp_lr_scheduler
 
 
-def train():
-    get_train_files_path(experiments_path, data_path, )
-    copy_images_to_path
-    create_model_training_data()
+def train(experiments_path, data_path):
+    dataloaders, dataset_sizes = create_model_training_data(
+        experiments_path, data_path)
+    '''
     fetch_pretrained_model()
     train_model()
     model_ft_resnet50, epoch_information_resnet50 = train_model(
         model_ft, criterion, optimizer_ft, exp_lr_scheduler, num_epochs=20)
+    '''
 
 
-def test()
+if __name__ == "__main__":
+    parser = ArgumentParser(
+        prog='trainer',
+        description='trainer for fontastic'
+    )
+
+    parser.add_argument('--experiments_path', type='str',
+                        help='base path to run the experiment')
+    parser.add_argument('--data_path', type='str',
+                        help='path to data')
+    config = parser.parser_args(['--experiments_path', '--data_path'])
+    train(config.experiments_path, config.data_path)
