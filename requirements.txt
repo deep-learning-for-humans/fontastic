@@ -4,7 +4,7 @@ astroid==2.1.0
 Babel==2.6.0
 backcall==0.1.0
 beautifulsoup4==4.6.1
-bleach==3.1.0
+bleach==3.1.4
 bs4==0.0.1
 certifi==2018.4.16
 chardet==3.0.4
