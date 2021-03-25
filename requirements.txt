@@ -68,7 +68,7 @@ python-dateutil==2.7.3
 python-editor==1.0.4
 pytz==2018.5
 pytzdata==2018.7
-PyYAML==5.1
+PyYAML==5.4
 pyzmq==17.1.0
 qtconsole==4.4.3
 requests==2.21.0
