@@ -39,7 +39,7 @@ Keras-Preprocessing==1.0.2
 kiwisolver==1.0.1
 lazy-object-proxy==1.3.1
 lockfile==0.12.2
-lxml==4.2.5
+lxml==4.6.3
 Mako==1.0.7
 MarkupSafe==1.0
 matplotlib==2.2.2
