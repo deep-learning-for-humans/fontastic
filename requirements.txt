@@ -1,7 +1,7 @@
 alembic==0.8.10
 appnope==0.1.0
 astroid==2.1.0
-Babel==2.6.0
+Babel==2.9.1
 backcall==0.1.0
 beautifulsoup4==4.6.1
 bleach==3.1.0
