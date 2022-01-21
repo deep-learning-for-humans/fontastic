@@ -21,7 +21,7 @@ future==0.16.0
 h5py==2.8.0
 idna==2.7
 ipykernel==4.8.2
-ipython==6.5.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 ipywidgets==7.3.1
 iso8601==0.1.12
